@@ -1,33 +1,48 @@
 
 import './App.css'
-//굳이 파일 확장자 명 쓰지 않아도 됨
-import Header from './component/Header'
-import Main from './component/Main'
-import Footer from './component/Footer'
-import Button from './component/Button'
-//함수 컴포넌트
-//자식 컴포넌트
-// const Header = () =>{}
-// 반드시 첫글자가 대문자로 되어야 함
+//두개의 요소를 담은 배열 반환
+import { useState } from 'react'
+//re-rendering이 진행되는 경우
+//1.자신이 관리하는 stste의 값이 변경되었을 때
+//2.자신이 제공받는 props의 값이 변경되었을 때
+//3.부모 component가 re-rendering 되는 경우 => 해결 방법: 서로 연관 없는 state들을 분리한다.
 
-//부모 컴포넌트(root component)
+const Bulb= () => {
+  //첫번째는 초기값 / 두번째는 변경시키는 상태변화 함수
+    const [light, setLight] = useState("off")
+    console.log(light)
+  return <div>
+    {light === 'on'? (
+      <h1 style={{backgroundColor:"orange"}}>ON</h1> ):(
+        <h1 style={{backgroundColor:"gray"}}>OFF</h1>
+        
+        )}
+        <button onClick={()=>{
+        setLight(light === "on" ? "off" : "on")
+      }}
+      >{light === "on"? "끄기" : "켜기"}</button>
+    </div>
+}
+
+const Counter = ()=>{
+  const [count, setCount] = useState(0);
+  return(
+    <>
+      <h1>{count}</h1>
+      <button onClick = {() => {
+        setCount(count + 1)
+      }}>+</button>
+
+    </>
+
+    )
+
+}
 function App() {
-
-  const buttonProps = {
-    text: "mail",
-    color:"red",
-    a:1,
-    b:2
-  }
-
   return (
     <>
-    <Button {...buttonProps}/>
-    <Button text={"blog"}/>
-    {/* 자식요소는 children이라는 이름의 props로 자동으로 전달됨 */}
-    <Button text={"cafe"}>
-      <div>자식 요소</div>
-    </Button>
+      <Bulb/>
+      <Counter/>
     </>
   )
 }
