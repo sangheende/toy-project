@@ -1,0 +1,217 @@
+{
+    "snack":[
+        {
+            "name":"약과",
+            "image":"./images/rice-bread.png",
+            "desc":"쫀득하고 맛있는 약과"
+        },
+        {
+            "name":"약과쿠키",
+            "image":"./images/rice-bread.png",
+            "desc":"약과와 쿠키의 만남"
+        },
+        {
+            "name":"쌀전병",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":"350g"
+        },
+        {
+            "name":"쌀마들렌",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"호두파이",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"귀리강정",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"곶감단지",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"도라지정과",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"호두정과",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"오란다",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["기본","견과&라즈베리","검은깨","감태"]
+        },
+        {
+            "name":"도라지양갱",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"한입 쌀쿠키",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"수제 젤리",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"금귤정과",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"누룽지 쌀쿠키",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"우키시마킨통",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"감자스콘",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"아마레띠",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"개성주악",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        }
+    ],
+    "rice-cake":[
+        {
+            "name":"수박떡바",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"바람떡",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"돼지떡바",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"수수팥떡",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":"900g"
+        },
+        {
+            "name":"도장송편",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"조각설기",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["가본", "단호박", "블루베리", "무화과"]
+        },
+        {
+            "name":"아이스 찹쌀떡",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["복숭아", "밤", "토마토", "청사과", "배", "감", "망고"]
+        },
+        {
+            "name":"구움찰떡",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["단호박", "쑥&팥", "흑임자", "무화과"]
+        },
+        {
+            "name":"하트절편",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"인절미",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["단호박", "초코"]
+        },
+        {
+            "name":"꽃설기",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["단호박", "초코"]
+        }
+    ],
+    "bread":[
+        {
+            "name":"쌀술빵",
+            "price":"2500",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병",
+            "flavor":["기본","흑임자","쑥","단호박", "딸기"]
+        },
+        {
+            "name":"고구마빵",
+            "price":"3500",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"감자빵",
+            "price":"3500",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        }
+    ],
+    "cake":[
+        {
+            "name":"하트절편 미니 케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"하트절편 케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"수박떡케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"돼지케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"떡케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        },
+        {
+            "name":"인절미케이크",
+            "image":"./images/rice-bread.png",
+            "desc":"바삭한 쌀전병"
+        }
+    ]
+}
